@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Learning Page</title>
+</head>
+<body>
+
+<header>
+<h1>Arc Solutions</h1>
+<p>Welcome to my HTML learning website!</p>
+</header>
+
+<main>
+
+<section>
+<h2>Student Registration</h2>
+<form action="#" method="get">
+<label for="fullname">Full Name:</label>
+<input type="text" id="fullname" name="fullname" required>
+<br><br>
+
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required>
+<br><br>
+
+<p>Mode of Payment:</p>
+
+<input type="radio" id="gcash" name="payment" value="GCash" required>
+<label for="gcash">GCash</label>
+
+<input type="radio" id="maya" name="payment" value="Maya">
+<label for="maya">Maya</label>
+
+<input type="radio" id="card" name="payment" value="Credit/Debit Card">
+<label for="card">Credit/Debit Card</label>
+
+<input type="radio" id="bank" name="payment" value="Bank Transfer">
+<label for="bank">Bank Transfer</label>
+
+<input type="radio" id="cash" name="payment" value="Cash">
+<label for="cash">Cash</label>
+<br><br>
+
+<label for="course">Choose Your Course:</label>
+<select id="course" name="course">
+    <option value="BSIT">BS Information Technology</option>
+    <option value="BSCS">BS Computer Science</option>
+    <option value="BSIS">BS Information Systems</option>
+</select>
+<br><br>
+
+<button type="submit">Register</button>
+<button type="reset">Clear</button>
+<br><br>
+
+<p>Preferred Learning Method:</p>
+
+<input type="radio" id="video" name="method" value="video">
+<label for="video">Video</label>
+
+<input type="radio" id="reading" name="method" value="reading">
+<label for="reading">Reading</label>
+<br><br>
+
+<p>Topics of Interest:</p>
+
+<input type="checkbox" id="html" name="interest" value="HTML">
+<label for="html">HTML</label>
+
+<input type="checkbox" id="css" name="interest" value="CSS">
+<label for="css">CSS</label>
+
+<input type="checkbox" id="js" name="interest" value="JavaScript">
+<label for="js">JavaScript</label>
+<br><br>
+
+<label for="comments">Comments:</label><br>
+<textarea id="comments" name="comments"
+          rows="4" cols="35"></textarea>
+
+<br><br>
+</form>
+</section>
+
+<section>
+<hr>
+<h2>Listen to the Lesson</h2>
+<p>Listen to the audio lesson below.</p>
+<audio controls>
+<source src="C:\Users\Admin\Downloads\HTML tutorial for beginners 🌎.mp3">
+Your browser does not support audio.
+</audio>
+<audio controls>
+<source src="C:\Users\Admin\Downloads\HTML Tutorial For Beginners.mp3">
+Your browser does not support audio.
+</audio>
+</section>
+
+<section>
+<hr>
+<h2>Watch the Lesson</h2>
+<p>Watch the instructional video below.</p>
+<video width="480" controls>
+<source src="C:\Users\Admin\Downloads\Learn HTML in 1 hour 🌎.mp4">
+Your browser does not support video.
+</video>
+
+<hr>
+<h2>Another Lesson Video</h2>
+<video width="480" controls>
+<source src="C:\Users\Admin\Downloads\HTML Tutorial For Beginners.mp4">
+Your browser does not support video.
+</video>
+</section>
+
+<section id="contact">
+<hr>
+<h2>Contact Us</h2>
+<p>Have a question or feedback? Send us a message.</p>
+
+<form action="mailto:aeriel.anthony.nuguid@adamson.edu.ph" method="post" enctype="text/plain">
+<label for="contact-name">Name:</label>
+<input type="text" id="contact-name" name="name" required>
+<br><br>
+
+<label for="contact-email">Email:</label>
+<input type="email" id="contact-email" name="email" required>
+<br><br>
+
+<label for="contact-subject">Subject:</label>
+<input type="text" id="contact-subject" name="subject">
+<br><br>
+
+<label for="contact-message">Message:</label><br>
+<textarea id="contact-message" name="message" rows="5" cols="35" required></textarea>
+<br><br>
+
+<button type="submit">Send Message</button>
+<button type="reset">Clear</button>
+</form>
+</section>
+
+<section id="location">
+<hr>
+<h2>Our Location</h2>
+<p>Adamson University, 900 San Marcelino St., Ermita, Manila</p>
+
+<iframe
+  src="https://www.google.com/maps?q=Adamson+University,+900+San+Marcelino+St,+Ermita,+Manila&output=embed"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Map of Adamson University">
+</iframe>
+</section>
+
+</main>
+
+<footer>
+<hr>
+<p>&copy; AERIEL ANTHONY M. NUGUID | aeriel.anthony.nuguid@adamson.edu.ph</p>
+</footer>
+
+</body>
+</html>
